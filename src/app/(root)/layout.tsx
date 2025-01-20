@@ -1,0 +1,13 @@
+import React from 'react'
+import Hello from '../commponents/hello'
+function layout({children}:{children:React.ReactNode}) {
+  return (
+    <div>
+      <h1 className="text-4xl bg-slate-500">Navbar</h1>
+      {children}
+      <Hello/>
+    </div>
+  );
+}
+
+export default layout
