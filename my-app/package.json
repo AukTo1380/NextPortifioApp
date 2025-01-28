@@ -1,5 +1,5 @@
 {
-  "name": "next",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,8 +11,14 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.5"
+    "next": "15.1.6"
   },
+  "packageManager":"npm@10.5.2",
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  },
+
   "devDependencies": {
     "typescript": "^5",
     "@types/node": "^20",
@@ -21,7 +27,7 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "eslint": "^9",
-    "eslint-config-next": "15.1.5",
+    "eslint-config-next": "15.1.6",
     "@eslint/eslintrc": "^3"
   }
 }
