@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { handleSignOut, handleSignIn } from "../../actions"; // Import the functions
 import React, { useState, useEffect } from "react";
-import { useSession } from "next-auth/react"; 
+// import { useSession } from "next-auth/react"; 
 
 const Navbar = () => {
   const [session, setSession] = useState(null);
